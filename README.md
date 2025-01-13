@@ -4,6 +4,7 @@
 ```bash
 # install PDM
 # git clone ...
+$ pdm venv create
 $ source .venv/bin/activate
 $ pdm install
 # $ vi ...

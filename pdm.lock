@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:5b2397f14a2dab7a180f4f749a1ae990e41cafe5edd2591a69c6f15451318869"
+content_hash = "sha256:1bd1b4ef241dd24000a8a604936374c95697b06cfe0da264de18963e74c74cd6"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -19,6 +19,17 @@ groups = ["default"]
 files = [
     {file = "check_os_ver-0.2.1-py3-none-any.whl", hash = "sha256:16611c9ca27ea8ddc89ce87ccbbf3d25bbf114856cf6c5be4bb936c99914090e"},
     {file = "check_os_ver-0.2.1.tar.gz", hash = "sha256:f99d0889432a520b26f3bd51f43077304505071edf42f38c63fbcaf2d4f41ad2"},
+]
+
+[[package]]
+name = "hj-check-os-version"
+version = "0.2.1"
+requires_python = ">=3.10"
+summary = "Default template for PDM package"
+groups = ["default"]
+files = [
+    {file = "hj_check_os_version-0.2.1-py3-none-any.whl", hash = "sha256:312ba49265b057d0a535fc36a8584c5360e595f1ab7539c269384fdcf6cef609"},
+    {file = "hj_check_os_version-0.2.1.tar.gz", hash = "sha256:060ebe4a4323f03248e1902997c943e948272ca856da15874e6f10c8b3185e00"},
 ]
 
 [[package]]

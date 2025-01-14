@@ -5,7 +5,18 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:6e3746c7427353cd94cfd6c1a5a6309fdfd871714e3b1213ded2befc6ef522a0"
+content_hash = "sha256:d5c86281e0659da3d675e544d23d6854ba0ac3b06af97677c4346037bedfa224"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
+
+[[package]]
+name = "stundrg-check-os-ver"
+version = "0.2.3"
+requires_python = ">=3.10"
+summary = "Utility that checks the name and version of the operating system."
+groups = ["default"]
+files = [
+    {file = "stundrg_check_os_ver-0.2.3-py3-none-any.whl", hash = "sha256:35736bd2c8c23f944f41adaa7ffdf9a4497978bd68fc4ae039500c0601606845"},
+    {file = "stundrg_check_os_ver-0.2.3.tar.gz", hash = "sha256:7dc6cc7439017e2526219bd5132710fffc0b1c3fadaec91fde9fb30bcea6707b"},
+]

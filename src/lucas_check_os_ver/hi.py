@@ -57,3 +57,6 @@ art = """
 def hi():
     print(art)
 
+def random_pic():
+    print("HI");
+    

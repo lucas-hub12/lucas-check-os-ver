@@ -5,7 +5,7 @@ description = "Detects and outputs the os version"
 authors = [
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
 ]
-dependencies = []
+dependencies = ["stundrg-check-os-ver>=0.2.3"]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
@@ -21,3 +21,10 @@ distribution = true
 [project.urls]
 Homepage = "https://github.com/lucas-hub12/lucas-check-os-ver"
 Issues = "https://github.com/lucas-hub12/lucas-check-os-ver/issues"
+
+[project.scripts]
+lucas-hi = "lucas_check_os_ver.hi:hi"
+lucas-random = "lucas_check_os_ver.hi:random_pic"
+
+
+

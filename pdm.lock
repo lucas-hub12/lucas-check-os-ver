@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:e5e9458517790d1f9dc769e78f1b9810c640a16efd069dcf4059b523c2ef205f"
+content_hash = "sha256:6b389dbd5dd7a5c985fabe2117afe35dbae7dbc5d141cd26fd5e6797f8dc65d3"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -19,6 +19,17 @@ groups = ["default"]
 files = [
     {file = "check_os_ver-0.2.1-py3-none-any.whl", hash = "sha256:16611c9ca27ea8ddc89ce87ccbbf3d25bbf114856cf6c5be4bb936c99914090e"},
     {file = "check_os_ver-0.2.1.tar.gz", hash = "sha256:f99d0889432a520b26f3bd51f43077304505071edf42f38c63fbcaf2d4f41ad2"},
+]
+
+[[package]]
+name = "cho-check-os-ver"
+version = "0.2.3"
+requires_python = ">=3.10"
+summary = "Default template for PDM package"
+groups = ["default"]
+files = [
+    {file = "cho_check_os_ver-0.2.3-py3-none-any.whl", hash = "sha256:2f3dae60aa71b4b36aab2e2bbb260291000fe62cb661a53e7ebaa2430b119f76"},
+    {file = "cho_check_os_ver-0.2.3.tar.gz", hash = "sha256:9cd896d92dea21b41de8ebf69b5d0099dbfdddeb25455cc04ad61dd09c74c3d2"},
 ]
 
 [[package]]

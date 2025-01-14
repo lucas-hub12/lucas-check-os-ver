@@ -54,9 +54,6 @@ art = """
                                                                                                     
                                                                                                                                                                                                         
 """
-def hi():
-    print(art)
-
 import random
 from ppabam_check_os_ver.hi import hi as hi1
 from check_os_ver.hi import hi as hi2
@@ -65,8 +62,12 @@ from jacob_os_version_check.hi import hi as hi4
 from stundrg_check_os_ver.hi import hi as hi5
 from cho_check_os_ver.hi  import hi as hi6
 from nunininu_check_os_ver.hi import hi as hi7
-    
- a = [hi1, hi2, hi3, hi4, hi5, hi6, hi7]
- b = random.choice(a)
- print(b)
+
+def hi():
+    print(art)
+
+def random_pick():
+    a = [hi1, hi2, hi3, hi4, hi5, hi6, hi7]
+    b = random.choice(a)
+    return(b)
 

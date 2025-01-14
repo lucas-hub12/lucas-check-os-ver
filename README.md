@@ -1,32 +1,105 @@
 # lucas-check-os-ver- 
+ - Detects and outputs the os version.
+```bash                
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                        ...::--------------------------::....                                       
+                    ..-*%##******************************###=..                                     
+                  .:*#*=====================================*#+.                                    
+                .:*#+=====++****************************+=====##:.                                  
+                :#*====+##*+-----------=#*-------------=*#*====**-.                                 
+               :%*====##=---------------#*---------------=#*====*#-.                                
+              .##====##-----------------#*----------------=##====+#=.                               
+              =%====*#=-----------------#*------------------##====+#+.                              
+             :#*===+#+------------------#*-------------------*#+===+#*.                             
+            :*#====**-------------------#*--------------------+#+====#*.                            
+          .-#*====+#+------------------=#*---------------------+#*====#*:...                        
+       .:+##+=====+**********************************************+=====+*#%%#*****+-:....           
+   .-*#%*+=========================================================================++*#%%##+.       
+  .+#+===================================================================================+#*%#-.    
+ .-#+====================================================================================+%-:-#*:   
+ .=#+===========================+%%%*============#%%%====================================+#+::-**:  
+ .=#+=====================================================================================*%=::-#=. 
+ .=#+======================================================================================+%#+-+*: 
+ .=#+=========================================================================================*###: 
+ .=#+==============++***+================================================++***+=================**. 
+ .=#+==========+*##**+++*###+========================================+*###*+++*###+============+#=. 
+ .=#+=========##*++++++++++*##======================================##*++++++++++*##===========+#-. 
+:+###########%#+++++*****++++#%####################################%#+++++*****++++*%#############+:
+#*-:::::::::*#++++##+--+##++++##::::::::::::::::::::::::::::::::::+#++++*#+--+##++++##-:::::::::::*#
+*#==========#*+++*#=::::-**+++*#==================================**+++*#=::::-##+++*#============#+
+.-++++++++++#*+++*#=::::-#*+++*#++++++++++++++++++++++++++++++++++#*+++*#=::::-##+++*#++++++++++++-.
+           .+#++++*#*+++##++++##                                  +#++++*#*+++##++++##.             
+            .*#+++++****+++++##.                                  .*#+++++****+++++##:              
+             .=%*++++++++++*#+.                                    .=%#++++++++++*#+.               
+              ..=###****###+:.                                       .=###****###+:.                
+                ...::---:..                                           ...::---:...                  
+                                                                                                    
+                                                                                                    
+                                                                                             
+                                                                                                    
+```                                                                                                    
+### USE
+```python
+$ pip install lucas-check-os-ver
+$ python
+>>> from lucas_check_os_ver.hi import random_pick
+>>> random_pick()
+```
+
+### CLI
+```bash
+# Random ASCII art is represented
+$ ppabam-random
+# Random ASCII art is represented per second.
+$ ./ppabam-random-match-while.sh ppabam-random
+$ ./ppabam-random-match-while.sh ppabam-random-game
+$ ./ppabam-random-match-while.sh ppabam-random-pic
+```
 
 ### Development environment setting
 ```bash
 # install PDM
 # git clone ...
-$ pdm venv create
+# pdm venv create
 $ source .venv/bin/activate
 $ pdm install
 # $ vi ...
-
 # TEST
 $ pdm install
 $ pdm test
-$ pip install . 
-
-$ git add <file-name>
+$ pip install .
+$ git add <FILE_NAME>
 $ git commit -a
 $ git push
-$ pdm publish
+$ pdm publish --username __token__ --password $PYPI_TOKEN
+Building sdist...
+Built sdist at /home/tom/code/ppabam-check-os-ver/dist/ppabam_check_os_ver-0.3.0.tar.gz
+Building wheel from sdist...
+Built wheel at /home/tom/code/ppabam-check-os-ver/dist/ppabam_check_os_ver-0.3.0-py3-none-any.whl
+Uploading ppabam_check_os_ver-0.3.0-py3-none-any.whl
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.1/18.1 kB • 00:00 • 83.2 MB/s
+Uploading ppabam_check_os_ver-0.3.0.tar.gz
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.0/16.0 kB • 00:00 • 80.8 MB/s
+View at:
+https://pypi.org/project/ppabam-check-os-ver/0.3.0/
+# PR - Merge
+# Tag - Releases
 
 ```
-
-### USE 
-```python
-$ pip install lucas-check-os-ver
-$ python 
->>> from lucas_check_os_ver.hi import hi
->>> hi()
+###TEST
+- https://docs.pytest.org/en/stable/
+```bash
+# $ pdm add -dG test pytest pytest-cov
+$ pytest
+$ pytest -s
+$ pytest --cov
 ```
 
+### REF
+- https://pdm-project.org/en/latest/
+- https://packaging.python.org/en/latest/tutorials/packaging-projects/
+- [console_scripts](https://packaging.python.org/en/latest/specifications/entry-points/#entry-points-specification)
 

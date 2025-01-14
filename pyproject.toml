@@ -1,7 +1,7 @@
 [project]
 name = "lucas-check-os-ver"
-version = "0.2.1"
-description = "Default template for PDM package"
+version = "0.3.0"
+description = "Detects and outputs the os version"
 authors = [
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
 ]

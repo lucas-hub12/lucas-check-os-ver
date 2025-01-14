@@ -5,7 +5,7 @@ description = "Detects and outputs the os version"
 authors = [
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
 ]
-dependencies = ["stundrg-check-os-ver>=0.2.3", "check-os-ver>=0.2.1", "hj-check-os-version>=0.2.1"]
+dependencies = ["stundrg-check-os-ver>=0.2.3", "check-os-ver>=0.2.1", "hj-check-os-version>=0.2.1", "jacob-os-version-check>=0.2.4"]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}

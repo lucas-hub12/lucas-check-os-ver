@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:1bd1b4ef241dd24000a8a604936374c95697b06cfe0da264de18963e74c74cd6"
+content_hash = "sha256:e5e9458517790d1f9dc769e78f1b9810c640a16efd069dcf4059b523c2ef205f"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -30,6 +30,17 @@ groups = ["default"]
 files = [
     {file = "hj_check_os_version-0.2.1-py3-none-any.whl", hash = "sha256:312ba49265b057d0a535fc36a8584c5360e595f1ab7539c269384fdcf6cef609"},
     {file = "hj_check_os_version-0.2.1.tar.gz", hash = "sha256:060ebe4a4323f03248e1902997c943e948272ca856da15874e6f10c8b3185e00"},
+]
+
+[[package]]
+name = "jacob-os-version-check"
+version = "0.2.4"
+requires_python = ">=3.10"
+summary = "Detects and outputs the os vesion."
+groups = ["default"]
+files = [
+    {file = "jacob_os_version_check-0.2.4-py3-none-any.whl", hash = "sha256:96d7235254a48f6370133c9d519b5211beaf854463bfe63f30b27c44e76cf57a"},
+    {file = "jacob_os_version_check-0.2.4.tar.gz", hash = "sha256:cb94a39ac773beac47d53e0def89ac21ff67595df2af3160b04f19b0f2828d85"},
 ]
 
 [[package]]

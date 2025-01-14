@@ -1,6 +1,6 @@
 [project]
 name = "lucas-check-os-ver"
-version = "0.1.0"
+version = "0.2.0"
 description = "Default template for PDM package"
 authors = [
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
@@ -17,3 +17,7 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[project.urls]
+Homepage = "https://github.com/lucas-hub12/lucas-check-os-ver"
+Issues = "https://github.com/lucas-hub12/lucas-check-os-ver/issues"

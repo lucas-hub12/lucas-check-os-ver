@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:e58e4c85f7a319a80f425ab54f6639f0fc98d81a286452e4da4a63dbda1ea98d"
+content_hash = "sha256:3f6e464d2535e66b417a646a3a586ca559d57c328854d84f2d988b8ef65b87b3"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -63,6 +63,17 @@ groups = ["default"]
 files = [
     {file = "nunininu_check_os_ver-0.3.0-py3-none-any.whl", hash = "sha256:e8c959b4abfea7ffcad47bbf2a12e2a7b91f897152062358ea110cbd5b8a66dc"},
     {file = "nunininu_check_os_ver-0.3.0.tar.gz", hash = "sha256:22f8e58cf7ed57376b3ad168c77264515f5b7d60e7a2eefa56bf0572217fb90b"},
+]
+
+[[package]]
+name = "seo-check-os-version"
+version = "0.2.0"
+requires_python = ">=3.10"
+summary = "Default template for PDM package"
+groups = ["default"]
+files = [
+    {file = "seo_check_os_version-0.2.0-py3-none-any.whl", hash = "sha256:10b7725639ad9bf47078eb2436d51bdf1932b26d8a6e092094d892424a85f3a9"},
+    {file = "seo_check_os_version-0.2.0.tar.gz", hash = "sha256:db9b38c7278db27af08078a6059e67cfc22063001391ed337b38e62eb0d7fe9f"},
 ]
 
 [[package]]

@@ -24,7 +24,5 @@ Issues = "https://github.com/lucas-hub12/lucas-check-os-ver/issues"
 
 [project.scripts]
 lucas-hi = "lucas_check_os_ver.hi:hi"
-lucas-random = "lucas_check_os_ver.hi:random_pic"
-
-
+lucas-random = "lucas_check_os_ver.hi:random_pick"
 

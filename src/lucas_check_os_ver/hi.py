@@ -68,6 +68,6 @@ def hi():
 
 def random_pick():
     a = [hi1, hi2, hi3, hi4, hi5, hi6, hi7]
-    b = random.choice(a)
-    return(b)
+   
+    random.choice(a)()
 

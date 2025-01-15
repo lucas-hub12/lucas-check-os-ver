@@ -1,6 +1,6 @@
 [project]
 name = "lucas-check-os-ver"
-version = "0.3.5"
+version = "0.4.0"
 description = "Detects and outputs the os version"
 authors = [
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
@@ -25,4 +25,12 @@ Issues = "https://github.com/lucas-hub12/lucas-check-os-ver/issues"
 [project.scripts]
 lucas-hi = "lucas_check_os_ver.hi:hi"
 lucas-random = "lucas_check_os_ver.hi:random_pick"
+lucas-os-ver = "lucas_check_os_ver.osver:get_os_pretty_name"
 
+
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+     "pytest-cov>=6.0.0",
+]
